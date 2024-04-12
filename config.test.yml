@@ -1,5 +1,8 @@
 persistence:
   pg_url: postgresql://vandelay_app:secret@postgres-test:5432/vandelay_test
+  redis:
+    host: redis
+    expires_in: 600 #seconds
 integrations:
   vendors:
     one:
